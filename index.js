@@ -7,7 +7,7 @@ let port = process.env.PORT || 3001;
 
 
 // ***Middlewares***
-app.use(cors({origin: 'https://jgestion-backend.herokuapp.com/'}));	
+app.use(cors({origin: 'http://localhost:4200'}));	
 
 
 app.get("/", (req, res)=>{
