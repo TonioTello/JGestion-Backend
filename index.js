@@ -5,7 +5,7 @@ const importData = require("./data.json");
 const cors = require ('cors'); // Conectar servidor del backend con el del frontend
 
 // ***Middlewares***
-server.use(cors({origin: 'http://localhost:4200'}));
+server.use(cors({origin: 'http://rtr-jgestion.herokuapp.com'}));
 
 server.get("/", (req, res)=>{
     res.send("Hello Word!! from JGestons RTR'S Backend")
