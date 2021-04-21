@@ -11,7 +11,7 @@ server.get("/", (req, res)=>{
     res.send("Hello Word!! from JGestons RTR'S Backend")
 });
 
-server.get("/api/equipo/obtener", (req, res)=>{
+server.get("/api/equipo/obtener2", (req, res)=>{
     res.send(importData);
 });
 
